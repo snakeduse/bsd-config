@@ -1,0 +1,8 @@
+# Device	Mountpoint	FStype	Options	Dump	Pass#
+/dev/ada0s1a	/		ufs	rw	1	1
+/dev/ada0s1b	none		swap	sw	0	0
+fdesc	/dev/fd	fdescfs		rw	0	0
+proc	/proc	procfs		rw	0	0
+#linproc	/compat/linux/proc	linprocfs,auto,late	rw	0	0
+/dev/ada0s2	/repository	ext2fs	rw	0	0
+/dev/ada0s3	/windows	ntfs-3g	rw,late,locale=ru_RU.UTF-8,mountprog=/usr/local/bin/ntfs-3g	0	0	
